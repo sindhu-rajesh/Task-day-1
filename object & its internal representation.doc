@@ -1,0 +1,33 @@
+<html><meta http-equiv="Content-Type" content="text/html; charset=Windows-1252"><body><p>
+	Question no ; 2</p>
+<p>
+	<strong>write a blog about objects and its internal reoresentation in javascript&nbsp;</strong></p>
+<p>
+	object are important data types in javascript. objects are different&nbsp; than primitative datatypes.(ex; number,string,boolean,etc).primitive datatypes contains one value but objects can hold many values in form of key; value pair.</p>
+<p>
+	These keys can be variables or functions and are called properties and methods,respectively,in the context of an object.</p>
+<p>
+	every object has some property associated with some value,these values can be accessed using these properties associated with them.</p>
+<p>
+	var mycar = new object();</p>
+<p>
+	mycar.make = &#39;suzuki&#39;;</p>
+<p>
+	mycar.model = &#39;altros&#39;;</p>
+<p>
+	mycar.year = 1978;</p>
+<p>
+	mycar.wheels = 2;</p>
+<p>
+	after creating mycar object,the value inside the object can be accessed using keys.</p>
+<p>
+	example;</p>
+<p>
+	mycar.year</p>
+<p>
+	output will be : 1978.</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</body></html>
