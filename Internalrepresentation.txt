@@ -1,0 +1,32 @@
+"# MERN-Task1" 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WRITE A BLOG ABOUT OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.OBJECTS:
+---------------  
+
+   * Objects are fundamental in JavaScript, serving as the building blocks for complex data structures and enabling powerful programming paradigms.
+   * Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+   * Objects are like containers in JavaScript that hold information.
+   * Inside JavaScript, objects are like hidden boxes with keys on them.
+   * In JavaScript, objects are collections of key-value pairs, where keys are strings (or symbols) and values can be of any data type, including other objects. Objects are used to represent real-world entities, data structures, and more complex data types.
+   Eg:
+        let person = {
+                               name: "John",
+                                age: 30,
+                               city: "New York"
+                              };
+      
+2.OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT:
+----------------------------------------------------------------------------------------
+   * A hash table is a data structure that stores key-value pairs. It's designed to provide fast access to values associated with given keys.
+   * When you insert a key-value pair into a hash table, a hash function is applied to the key.
+   * The hash function converts the key into an index or a hash code, which determines where the value will be stored in the array.
+   * Each bucket can hold key-value pairs.
+   * Each key in the object acts as an index for accessing its corresponding value.
+     Eg:
+         person with a key name and value "Hema", internally JavaScript will map the key "name" to the value "Hema" 
+   * Add new properties to an object at any time by assigning a value to a new key.
+   * Internally, JavaScript engines manage objects in memory, allocating space for the object and its properties.
+   * Memory is automatically allocated and deallocated by the garbage collector when objects are no longer needed. 
